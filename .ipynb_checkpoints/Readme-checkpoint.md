@@ -11,7 +11,7 @@ Se ofrece libremente, sin garantía de la exactitud de lo aquí expuesto.
 ### Trabajos prácticos:      
 [TP 01](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_01.ipynb)   
 [TP 02](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_02.ipynb)    
-[TP 03](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_03.ipynb)
+[TP 03](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_03.ipynb)         
 [TP 04](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_04.ipynb)
 
 en construcción ... 
