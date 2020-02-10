@@ -9,8 +9,8 @@ Se ofrece libremente, sin garantía de la exactitud de lo aquí expuesto.
 ## índice
 
 ### Trabajos prácticos:      
-[Guia 01](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/guia_01.ipynb)    
-[Guia 02](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/guia_02.ipynb)    
+[Guia 01](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/guia-01.ipynb)    
+[Guia 02](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/guia-02.ipynb)    
 [TP 01](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_01.ipynb)   
 [TP 02](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_02.ipynb)    
 [TP 03](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_03.ipynb)         
