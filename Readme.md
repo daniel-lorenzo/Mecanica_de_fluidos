@@ -21,6 +21,6 @@ en construcción ...
 ### Clase práctica:
 [Clase p01](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/clase_p01.ipynb)     
 [Clase p02](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/clase_p02.ipynb)     
-[Clase p03](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/clase_p03.ipynb)     
+[Clase p03](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/clase_p03.ipynb?flush_cache=true)     
 
 en construcción ...
