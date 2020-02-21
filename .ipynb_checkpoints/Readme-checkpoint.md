@@ -15,7 +15,7 @@ Se ofrece libremente, sin garantía de la exactitud de lo aquí expuesto.
 [TP 02](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_02.ipynb)    
 [TP 03](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_03.ipynb)         
 [TP 04](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_04.ipynb)   
-[TP cañerias](https://nbviewer.jupyter.org/github.com/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP-can.ipynb?flush_cache=true)       
+[TP cañerias](https://nbviewer.jupyter.org/github/daniel-lorenzo/Mecanica_de_fluidos/blob/master/TP_can.ipynb?flush_cache=true)       
 
 en construcción ... 
 
