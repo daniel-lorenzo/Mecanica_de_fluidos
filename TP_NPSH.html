@@ -13417,43 +13417,6 @@ $</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Análisis:</strong>
-Aplicamos la ecuación de energía a lo largo de una línea de corriente desde el punto 1 en la superficie del depósito hasta el punto 2 en la entrada de la bomba.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$\begin{array}{c}
-\mathrm{ANPA} \\
-\mathrm{ \acute o \; NPSH}
-\end{array}
-=\frac{P_\mathrm{atm}}{\delta g} - \frac{P_\mathrm{vapor}}{\delta g} + H_\mathrm{succi \acute on} - H_c - H_\mathrm{seg} $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>$\begin{array}{ll}
-P_\mathrm{atm} = P_1 = 95443,8 \, \mathrm{Pa} &amp; \mbox{Presión atmosférica a 500 m de altitud} \\
-\delta = 992,214 \, \mathrm{kg/m^3} &amp; \mbox{Densidad del agua en el depósito} \\
-g = 9,80665 \, \mathrm{m/s^2} &amp; \mbox{Aceleración de la gravedad} \\
-P_\mathrm{vapor} = 7384,9 \, \mathrm{Pa} &amp; \mbox{Presión de vapor del agua} \\
-H_\mathrm{succión} = 8 \, \mathrm{m} &amp; \mbox{Altura del eje de la bomba a la superficie del agua} \\
-H_c = \mbox{Pérdida de carga} &amp; \mbox{Pérdida de carga primaria + secundaria} \\
-H_\mathrm{seg} = 0,5 \, \mathrm{m} &amp; \mbox{Factor de seguridad}
-\end{array}
-$</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>Del trabajo práctico de cañerías y pérdida de carga, tenemos los siguientes datos:</p>
 <p>$\left\{
 \begin{array}{l}
@@ -13707,14 +13670,7 @@ $$ v = \mathrm{ \frac{(5 \times 10^{-3} \, m^3/s)}{(3.17 \times 10^{-3} \, m^2)}
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="C&#225;lculo-del-n&#250;mero-de-Reynolds">C&#225;lculo del n&#250;mero de Reynolds<a class="anchor-link" href="#C&#225;lculo-del-n&#250;mero-de-Reynolds">&#182;</a></h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ Re= \frac{\phi \cdot v}{\eta} $$<p>$\begin{array}{l}
+<h3 id="C&#225;lculo-del-n&#250;mero-de-Reynolds">C&#225;lculo del n&#250;mero de Reynolds<a class="anchor-link" href="#C&#225;lculo-del-n&#250;mero-de-Reynolds">&#182;</a></h3>$$ Re= \frac{\phi \cdot v}{\eta} $$<p>$\begin{array}{l}
 Re = \mbox{número de Reynolds} \\
 \eta = \mbox{viscosidad cinemática del agua} \\
 v = \mbox{velocidad} \\
@@ -14086,6 +14042,43 @@ $$ h_T = h_p + h_s  $$$$ h_T = \mathrm{ 0,35 \, m + 0,15 \, m \cong 0,5 \, m } $
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Análisis:</strong>
+Aplicamos la ecuación de energía a lo largo de una línea de corriente desde el punto 1 en la superficie del depósito hasta el punto 2 en la entrada de la bomba.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$\begin{array}{c}
+\mathrm{ANPA} \\
+\mathrm{ \acute o \; NPSH}
+\end{array}
+=\frac{P_\mathrm{atm}}{\delta g} - \frac{P_\mathrm{vapor}}{\delta g} + H_\mathrm{succi \acute on} - H_c - H_\mathrm{seg} $$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>$\begin{array}{ll}
+P_\mathrm{atm} = P_1 = 95443,8 \, \mathrm{Pa} &amp; \mbox{Presión atmosférica a 500 m de altitud} \\
+\delta = 992,214 \, \mathrm{kg/m^3} &amp; \mbox{Densidad del agua en el depósito} \\
+g = 9,80665 \, \mathrm{m/s^2} &amp; \mbox{Aceleración de la gravedad} \\
+P_\mathrm{vapor} = 7384,9 \, \mathrm{Pa} &amp; \mbox{Presión de vapor del agua} \\
+H_\mathrm{succión} = 8 \, \mathrm{m} &amp; \mbox{Altura del eje de la bomba a la superficie del agua} \\
+H_c = \mbox{Pérdida de carga} &amp; \mbox{Pérdida de carga primaria + secundaria} \\
+H_\mathrm{seg} = 0,5 \, \mathrm{m} &amp; \mbox{Factor de seguridad}
+\end{array}
+$</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
