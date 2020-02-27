@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>guia-01</title>
+<title>TP_NPSH</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13017,45 +13017,6 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
-<style type="text/css">
-    
-/* Temporary definitions which will become obsolete with Notebook release 5.0 */
-.ansi-black-fg { color: #3E424D; }
-.ansi-black-bg { background-color: #3E424D; }
-.ansi-black-intense-fg { color: #282C36; }
-.ansi-black-intense-bg { background-color: #282C36; }
-.ansi-red-fg { color: #E75C58; }
-.ansi-red-bg { background-color: #E75C58; }
-.ansi-red-intense-fg { color: #B22B31; }
-.ansi-red-intense-bg { background-color: #B22B31; }
-.ansi-green-fg { color: #00A250; }
-.ansi-green-bg { background-color: #00A250; }
-.ansi-green-intense-fg { color: #007427; }
-.ansi-green-intense-bg { background-color: #007427; }
-.ansi-yellow-fg { color: #DDB62B; }
-.ansi-yellow-bg { background-color: #DDB62B; }
-.ansi-yellow-intense-fg { color: #B27D12; }
-.ansi-yellow-intense-bg { background-color: #B27D12; }
-.ansi-blue-fg { color: #208FFB; }
-.ansi-blue-bg { background-color: #208FFB; }
-.ansi-blue-intense-fg { color: #0065CA; }
-.ansi-blue-intense-bg { background-color: #0065CA; }
-.ansi-magenta-fg { color: #D160C4; }
-.ansi-magenta-bg { background-color: #D160C4; }
-.ansi-magenta-intense-fg { color: #A03196; }
-.ansi-magenta-intense-bg { background-color: #A03196; }
-.ansi-cyan-fg { color: #60C6C8; }
-.ansi-cyan-bg { background-color: #60C6C8; }
-.ansi-cyan-intense-fg { color: #258F8F; }
-.ansi-cyan-intense-bg { background-color: #258F8F; }
-.ansi-white-fg { color: #C5C1B4; }
-.ansi-white-bg { background-color: #C5C1B4; }
-.ansi-white-intense-fg { color: #A1A6B2; }
-.ansi-white-intense-bg { background-color: #A1A6B2; }
-
-.ansi-bold { font-weight: bold; }
-
-    </style>
 
 
 <style type="text/css">
@@ -13116,7 +13077,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Mec&#225;nica-de-fluidos">Mec&#225;nica de fluidos<a class="anchor-link" href="#Mec&#225;nica-de-fluidos">&#182;</a></h1><h2 id="Guia-ejercicios-hidrost&#225;tica">Guia ejercicios hidrost&#225;tica<a class="anchor-link" href="#Guia-ejercicios-hidrost&#225;tica">&#182;</a></h2><hr>
+<h1 id="Trabajo-pr&#225;ctico-NPSH---ANPA">Trabajo pr&#225;ctico NPSH - ANPA<a class="anchor-link" href="#Trabajo-pr&#225;ctico-NPSH---ANPA">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Seleccionar bomba centrífuga para la instalación. ANPA requerido.</p>
 
 </div>
 </div>
@@ -13124,7 +13092,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Ejercicio-1">Ejercicio 1<a class="anchor-link" href="#Ejercicio-1">&#182;</a></h2><p>Los diámetros de 2 pistones de una prensa hidráulica miden 4 y 40cm respectivamnete. ¿Por cuanto aparece multiplicada en el pistón mayor la fuerza que se aplica sobre el menor?</p>
+<p><img src="img/tp-mpsh-01.png" alt="tp-mpsh-01.png" width="400" height=auto></p>
 
 </div>
 </div>
@@ -13132,45 +13100,87 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Soluci&#243;n">Soluci&#243;n<a class="anchor-link" href="#Soluci&#243;n">&#182;</a></h3><p>Estamos en equilibrio</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>$\left.
-\begin{array}{l}
-\displaystyle P_1 = \frac{F_1}{A_1} \\
-\displaystyle P_2 = \frac{F_2}{A_2} \\
-P_1 = P_2
+<p>$\left\{
+\begin{array}{ll}
+x = 8 \, \mathrm{m} &amp; \mbox{Altura del eje de la bomba a la superficie del agua} \\
+y = 40^\circ \mathrm{C} &amp; \mbox{Temperatura del agua} \\
+z = 500 \, \mathrm{m} &amp; \mbox{Altura de la instalación (sobre el nivel del mar)}
 \end{array}
-\right\} \quad 
-\Rightarrow \quad
-\begin{array}{|l|}
-\hline
-\displaystyle \frac{F_1}{A_1} = \frac{F_2}{A_2} \\
-\hline
+\right.
+$</p>
+<p>$\mbox{Factor de seguridad}= 0,5 \, \mathrm{m}$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Soluci&#243;n">Soluci&#243;n<a class="anchor-link" href="#Soluci&#243;n">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Para una bomba y un sistema de tuberías dados, debemos estimar el caudal de volumen máximo que se puede bombear sin cavitación.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Supuestos</strong></p>
+<ol>
+<li>El flujo es constante.</li>
+<li>El agua es incompresible.</li>
+<li>El flujo es turbulento.</li>
+</ol>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Propiedades:</strong></p>
+<ul>
+<li>La presión atmosférica estándar a nivel del mar es 101325 Pa</li>
+<li>La temperatura standard a nivel del mar es 288,16 K</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>La instalación se encuenta a 500 m sobre el nivel del mar, por lo que debemos determinar la presión atmosféria a esa altitud.<br>
+La presión del aire sobre el nivel del mar se puede calcular como:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ P = P_0 \cdot \left( 1 - \frac{g \cdot h }{c_p \cdot  T_0} \right)^{\displaystyle \frac{c_p \cdot M}{R_0} } $$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>$\begin{array}{l|l}
+h = 500 \, \mathrm{m} &amp; \mbox{Altitud } h \\
+g = 9,80665 \, \mathrm{m/s^2} &amp; \mbox{Aceleración de la gravedad en la superficie de la Tierra} \\
+T_0 = 288,16 \, \mathrm{K} &amp; \mbox{Temperatura standard a nivel del mar} \\
+c_p = 1004,68506 \, \mathrm{J/(kg \cdot K)} &amp; \mbox{Calor específico a presión constante} \\
+P_0 = 101325 \, \mathrm{Pa} &amp; \mbox{Presión atmosférica standard a nivel del mar} \\
+M = 0,02896969 \, \mathrm{kg/mol} &amp; \mbox{Masa molar del aire seco} \\
+R_0 = 8,314462618 \, \mathrm{J/(mol \cdot K)} &amp; \mbox{Constante universal de los gases}
 \end{array}$</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Despejo $F_2$
-$$ F_2 = F_1 \frac{A_2}{A_1} = F_1 \frac{\pi \phi^2_2/4}{\pi \phi^2_1/4} $$</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Luego, simplifico:
-$$ F_2 = F_1 \frac{\phi^2_2}{\phi^2_1} $$</p>
 
 </div>
 </div>
@@ -13180,12 +13190,11 @@ $$ F_2 = F_1 \frac{\phi^2_2}{\phi^2_1} $$</p>
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Datos:</span>
-<span class="n">d1</span> <span class="o">=</span> <span class="mf">4e-2</span>  <span class="c1"># [m]</span>
-<span class="n">d2</span> <span class="o">=</span> <span class="mf">40e-2</span> <span class="c1"># [m]</span>
-
-<span class="c1"># Relación</span>
-<span class="n">relac</span> <span class="o">=</span> <span class="n">d2</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="n">d1</span><span class="o">**</span><span class="mi">2</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Datos del problema:</span>
+<span class="n">x</span> <span class="o">=</span> <span class="mi">8</span> <span class="c1"># [m]  (Altura del eje de la bomba a la superficie del agua)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">40</span> <span class="o">+</span> <span class="mf">273.15</span> <span class="c1"># [K]  (Temperatura del agua)</span>
+<span class="n">z</span> <span class="o">=</span> <span class="mi">500</span> <span class="c1"># [m]  (Altura de la instalación sobre el nivel del mar)</span>
+<span class="n">H_seg</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="c1"># Factor de seguridad</span>
 </pre></div>
 
     </div>
@@ -13198,7 +13207,30 @@ $$ F_2 = F_1 \frac{\phi^2_2}{\phi^2_1} $$</p>
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;F2 = </span><span class="si">%s</span><span class="s1">*F1&#39;</span><span class="o">%</span><span class="k">round</span>(relac,1))
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Cargamos los datos:</span>
+<span class="n">h</span> <span class="o">=</span> <span class="n">z</span> <span class="c1"># [m] Altitud h</span>
+<span class="n">g</span> <span class="o">=</span> <span class="mf">9.80665</span> <span class="c1"># [m/s^2]  (Aceleración de la gravedad en la superficie de la Tierra)</span>
+<span class="n">T0</span> <span class="o">=</span> <span class="mf">288.16</span> <span class="c1"># [K]  (Temperatura standard a nivel del mar)</span>
+<span class="n">cp</span> <span class="o">=</span> <span class="mf">1004.68506</span> <span class="c1"># [J/(kg·K)]  (Calor específico a presión constante)</span>
+<span class="n">P_0</span> <span class="o">=</span> <span class="mi">101325</span> <span class="c1"># Pa  (Presión atmosférica standard a nivel del mar)</span>
+<span class="n">M</span> <span class="o">=</span> <span class="mf">0.02896968</span> <span class="c1"># [kg/mol]  (Masa molar del aire seco)</span>
+<span class="n">R0</span> <span class="o">=</span> <span class="mf">8.314462618</span> <span class="c1"># [J/(mol·K)]  (Constante universal de los gases)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Ejecutamos el cálculo</span>
+<span class="n">P_1</span> <span class="o">=</span> <span class="n">P_0</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span> <span class="o">-</span> <span class="p">(</span><span class="n">g</span><span class="o">*</span><span class="n">h</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">cp</span><span class="o">*</span><span class="n">T0</span><span class="p">))</span><span class="o">**</span><span class="p">(</span> <span class="n">cp</span><span class="o">*</span><span class="n">M</span><span class="o">/</span><span class="n">R0</span> <span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Presión atmosférica a 500 m de altitud:&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;P_1 = </span><span class="si">%s</span><span class="s1"> [Pa]&#39;</span><span class="o">%</span><span class="k">round</span>(P_1,1))
 </pre></div>
 
     </div>
@@ -13215,7 +13247,8 @@ $$ F_2 = F_1 \frac{\phi^2_2}{\phi^2_1} $$</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>F2 = 100.0*F1
+<pre>Presión atmosférica a 500 m de altitud:
+P_1 = 95443.8 [Pa]
 </pre>
 </div>
 </div>
@@ -13227,32 +13260,13 @@ $$ F_2 = F_1 \frac{\phi^2_2}{\phi^2_1} $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$ F_2 = 100 F_1 $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">reset</span> -s -f
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Ejercicio-2">Ejercicio 2<a class="anchor-link" href="#Ejercicio-2">&#182;</a></h2><p>Se solicita:</p>
-<ol>
-<li>Determinar la presión del sistema en kgf/cm² y en Pa y $F_2$ en equilibrio</li>
-<li>El desplazamiento del émbolo 2 si el émbolo 1 se mueve 30mm</li>
-</ol>
-<p><img src="img/g1-02.svg" alt="g1-02.svg" width="50%" height="50%"></p>
+<p>$\left\{
+\begin{array}{l}
+P_1 = 95443,8 \, \mathrm{Pa} \\
+T_\mathrm{agua} = 313,15 \, \mathrm{K}
+\end{array}
+\right.
+$</p>
 
 </div>
 </div>
@@ -13260,16 +13274,10 @@ $$ F_2 = 100 F_1 $$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Soluci&#243;n">Soluci&#243;n<a class="anchor-link" href="#Soluci&#243;n">&#182;</a></h3><p>Cálculo de $F_2$
-$$ \frac{F_1}{A_1} = \frac{F_2}{A_2} \quad \Rightarrow \quad F_2 = \frac{F_1}{A_1} A_2 $$</p>
+<p>Con estos datos, de tablas termodinámicas obtenemos densidad $\delta$ y presión de vapor $P_\mathrm{vapor}$ del agua.</p>
+<p>A continuación utilizaremos la biblioteca CoolProp para consultar los datos de tabla.<br>
+<strong>Fuente:</strong> <a target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href="http://www.coolprop.org/">http://www.coolprop.org/</a></p>
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ F_2 = F_1 \frac{\phi_2^2}{\phi_1^2} $$
 </div>
 </div>
 </div>
@@ -13278,13 +13286,8 @@ $$ F_2 = F_1 \frac{\phi_2^2}{\phi_1^2} $$
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Datos:</span>
-<span class="n">d1</span> <span class="o">=</span> <span class="mf">15e-3</span> <span class="c1"># [m]</span>
-<span class="n">d2</span> <span class="o">=</span> <span class="mf">50.8e-3</span> <span class="c1"># [m]</span>
-<span class="n">F1</span> <span class="o">=</span> <span class="mi">500</span> <span class="c1"># [N]</span>
-
-<span class="c1"># Cálculo de F2</span>
-<span class="n">F2</span> <span class="o">=</span> <span class="n">F1</span><span class="o">*</span><span class="p">(</span><span class="n">d2</span><span class="o">/</span><span class="n">d1</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Importa biblioteca coolprop (Tabla termodinámica)</span>
+<span class="kn">from</span> <span class="nn">CoolProp.CoolProp</span> <span class="k">import</span> <span class="n">PropsSI</span>
 </pre></div>
 
     </div>
@@ -13297,7 +13300,10 @@ $$ F_2 = F_1 \frac{\phi_2^2}{\phi_1^2} $$
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;F2 = </span><span class="si">%s</span><span class="s1"> [N]&#39;</span><span class="o">%</span><span class="k">round</span>(F2,2))
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Consultamos densidad del agua con P_1 = 95443.8 [Pa] y T = 40°C</span>
+<span class="n">delta</span> <span class="o">=</span> <span class="n">PropsSI</span><span class="p">(</span><span class="s1">&#39;D&#39;</span><span class="p">,</span><span class="s1">&#39;P&#39;</span><span class="p">,</span><span class="n">P_1</span><span class="p">,</span><span class="s1">&#39;T&#39;</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="s1">&#39;Water&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Densidad del agua en el depósito:&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;delta = </span><span class="si">%s</span><span class="s1"> [kg/m^3]&#39;</span><span class="o">%</span><span class="k">round</span>(delta,3))
 </pre></div>
 
     </div>
@@ -13314,7 +13320,8 @@ $$ F_2 = F_1 \frac{\phi_2^2}{\phi_1^2} $$
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>F2 = 5734.76 [N]
+<pre>Densidad del agua en el depósito:
+delta = 992.214 [kg/m^3]
 </pre>
 </div>
 </div>
@@ -13322,52 +13329,16 @@ $$ F_2 = F_1 \frac{\phi_2^2}{\phi_1^2} $$
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Presión del sistema (estática)
-$$ P_e = \frac{F_1}{A_1} $$</p>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Cálculo del área A1</span>
-<span class="n">A1</span> <span class="o">=</span> <span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">d1</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="mi">4</span> <span class="c1"># [m^2]</span>
-
-<span class="c1"># Presión del sistema</span>
-<span class="n">Pe</span> <span class="o">=</span> <span class="n">F1</span><span class="o">/</span><span class="n">A1</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Pe = </span><span class="si">%s</span><span class="s1"> [Pa]&#39;</span><span class="o">%</span><span class="k">round</span>(Pe,2))
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Presión de vapor del agua a 40°C = 313 K</span>
+<span class="n">P_vapor</span> <span class="o">=</span> <span class="n">PropsSI</span><span class="p">(</span><span class="s1">&#39;P&#39;</span><span class="p">,</span><span class="s1">&#39;T&#39;</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="s1">&#39;Q&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;Water&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Presión de vapor del agua en el depósito:&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;P_vapor = </span><span class="si">%s</span><span class="s1"> [Pa]&#39;</span><span class="o">%</span><span class="k">round</span>(P_vapor,1))
 </pre></div>
 
     </div>
@@ -13384,7 +13355,8 @@ $$ P_e = \frac{F_1}{A_1} $$</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Pe = 2829421.21 [Pa]
+<pre>Presión de vapor del agua en el depósito:
+P_vapor = 7384.9 [Pa]
 </pre>
 </div>
 </div>
@@ -13396,8 +13368,15 @@ $$ P_e = \frac{F_1}{A_1} $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Conversión a $\mathrm{[ \vec{kg}/cm^2 ]}$
-$$ \mathrm{ Pa = \frac{N}{m^2} } $$</p>
+<p>$\left\{
+\begin{array}{l}
+P_1 = 95443,8 \, \mathrm{Pa} \\
+T_\mathrm{agua} = 313,15 \, \mathrm{K}
+\end{array}
+\right. \quad \rightarrow \quad
+\mbox{De tabla:} \quad
+\delta = 992,214 \, \mathrm{kg/m^3}
+$</p>
 
 </div>
 </div>
@@ -13405,7 +13384,180 @@ $$ \mathrm{ Pa = \frac{N}{m^2} } $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$ \left[ \mathrm{ \frac{ \vec{kg} }{cm^2} } \right] \quad \rightarrow \quad \frac{ \mathrm{ [N] } }{g} \cdot \mathrm{ \frac{ [m]^2}{1 \times 10^4 \, [cm]^2} } $$
+<p>$\left\{
+\begin{array}{l}
+T_\mathrm{agua} = 313,15 \, \mathrm{K} \\
+Q = 1 \; \mbox{(vapor sat.)}
+\end{array}
+\right.\quad \rightarrow \quad
+\mbox{De tabla:} \quad P_\mathrm{vapor} = 7384,9 \, \mathrm{Pa}
+$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Consultando las tablas de REFPROP, también obtenemos los mismos resultados</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="img/tp_npsh_tabla.png" alt="tp_npsh_tabla.png"></p>
+<center>    
+<b>Fuente:</b> <a href="https://www.nist.gov/srd/refprop">https://www.nist.gov/srd/refprop</a>
+</center>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Análisis:</strong>
+Aplicamos la ecuación de energía a lo largo de una línea de corriente desde el punto 1 en la superficie del depósito hasta el punto 2 en la entrada de la bomba.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$\begin{array}{c}
+\mathrm{ANPA} \\
+\mathrm{ \acute o \; NPSH}
+\end{array}
+=\frac{P_\mathrm{atm}}{\delta g} - \frac{P_\mathrm{vapor}}{\delta g} + H_\mathrm{succi \acute on} - H_c - H_\mathrm{seg} $$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>$\begin{array}{ll}
+P_\mathrm{atm} = P_1 = 95443,8 \, \mathrm{Pa} &amp; \mbox{Presión atmosférica a 500 m de altitud} \\
+\delta = 992,214 \, \mathrm{kg/m^3} &amp; \mbox{Densidad del agua en el depósito} \\
+g = 9,80665 \, \mathrm{m/s^2} &amp; \mbox{Aceleración de la gravedad} \\
+P_\mathrm{vapor} = 7384,9 \, \mathrm{Pa} &amp; \mbox{Presión de vapor del agua} \\
+H_\mathrm{succión} = 8 \, \mathrm{m} &amp; \mbox{Altura del eje de la bomba a la superficie del agua} \\
+H_c = \mbox{Pérdida de carga} &amp; \mbox{Pérdida de carga primaria + secundaria} \\
+H_\mathrm{seg} = 0,5 \, \mathrm{m} &amp; \mbox{Factor de seguridad}
+\end{array}
+$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Del trabajo práctico de cañerías y pérdida de carga, tenemos los siguientes datos:</p>
+<p>$\left\{
+\begin{array}{l}
+\mbox{Caudal} = 300 \, \mathrm{[Lt/min]} \\
+\mbox{Diámetro} = 2,5 \, \mathrm{[inch]} \\
+\mbox{Rugosidad} = 0,05 \, \mathrm{[mm]} \\
+\eta = 1,21 \times 10^{-6} \, \mathrm{[m^2/s]} \; \mbox{(viscosidad cinemática del agua)} \\
+g = 9,81 \, \mathrm{[m/s^2]} 
+\end{array}
+\right.
+$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Conversi&#243;n-a-unidades-SI">Conversi&#243;n a unidades SI<a class="anchor-link" href="#Conversi&#243;n-a-unidades-SI">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ Q = 300 \, \mathrm{ \frac{[Lt]}{[min]} \cdot \frac{1 \, [m^3]}{1000 \, [Lt]} \cdot \frac{1 \, [min]}{60 \, [s]} = 0,005 \, [m^3/s] \quad (caudal) } $$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Q</span> <span class="o">=</span> <span class="mi">300</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">1000</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">60</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Q = </span><span class="si">%s</span><span class="s1"> [m^3/s] (caudal)&#39;</span><span class="o">%</span><span class="k">round</span>(Q,3))
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Q = 0.005 [m^3/s] (caudal)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ \phi = 2,5 \, \mathrm{ [inch] \cdot \frac{25,4 \times 10^{-3} \, [m]}{1 \, [inch]} = 0,0635 \, [m] \quad } \mbox{(diámetro)} $$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">phi</span> <span class="o">=</span> <span class="mf">2.5</span><span class="o">*</span><span class="p">(</span><span class="mf">25.4e-3</span><span class="p">)</span><span class="o">/</span><span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;phi = </span><span class="si">%s</span><span class="s1"> [m] (diámetro)&#39;</span><span class="o">%</span><span class="k">round</span>(phi,4))
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>phi = 0.0635 [m] (diámetro)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ \varepsilon = \mathrm{ 0,05 \, [mm] \cdot \frac{1 \, [m]}{1000 \, [mm]} = 5 \times 10^{-5} \, [m] } \quad \mbox{(rugosidad)}$$
 </div>
 </div>
 </div>
@@ -13414,11 +13566,8 @@ $$ \left[ \mathrm{ \frac{ \vec{kg} }{cm^2} } \right] \quad \rightarrow \quad \fr
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Dato:</span>
-<span class="n">g</span> <span class="o">=</span> <span class="mf">9.81</span> <span class="c1"># [m/s^2]</span>
-
-<span class="c1"># Imprime el valor en [kg/cm^2]</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Pe = </span><span class="si">%s</span><span class="s1"> [kg/cm^2]&#39;</span><span class="o">%</span><span class="k">round</span>(Pe/(g*1e4),2))
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">epsilon</span> <span class="o">=</span> <span class="mf">0.05</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">/</span><span class="mi">1000</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;epsilon = </span><span class="si">%s</span><span class="s1"> [m] (rugosidad)&#39;</span><span class="o">%</span><span class="k">round</span>(epsilon,5))
 </pre></div>
 
     </div>
@@ -13435,7 +13584,7 @@ $$ \left[ \mathrm{ \frac{ \vec{kg} }{cm^2} } \right] \quad \rightarrow \quad \fr
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Pe = 28.84 [kg/cm^2]
+<pre>epsilon = 5e-05 [m] (rugosidad)
 </pre>
 </div>
 </div>
@@ -13447,8 +13596,19 @@ $$ \left[ \mathrm{ \frac{ \vec{kg} }{cm^2} } \right] \quad \rightarrow \quad \fr
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>También
-$$ F_2 = P_e A_2 $$</p>
+<h3 id="C&#225;lculo-de-la-secci&#243;n-(&#225;rea)">C&#225;lculo de la secci&#243;n (&#225;rea)<a class="anchor-link" href="#C&#225;lculo-de-la-secci&#243;n-(&#225;rea)">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ A = \frac{\pi}{4} \phi^2 $$<p>$\begin{array}{l}
+\phi = \mbox{diámetro de la cañería} \\
+A = \mbox{área o sección de la cañería}
+\end{array}
+$
+$$ A = \mathrm{ \frac{\pi}{4} (0,0635 \, m)^2 \cong 3,17 \times 10^{-3} \, m^2 } $$</p>
 
 </div>
 </div>
@@ -13458,9 +13618,7 @@ $$ F_2 = P_e A_2 $$</p>
 <div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">A2</span> <span class="o">=</span> <span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">d2</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="mi">4</span> <span class="c1"># [m^2]</span>
-
-<span class="n">F2</span> <span class="o">=</span> <span class="n">Pe</span><span class="o">*</span><span class="n">A2</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
 </pre></div>
 
     </div>
@@ -13473,7 +13631,8 @@ $$ F_2 = P_e A_2 $$</p>
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;F2 = </span><span class="si">%s</span><span class="s1"> [N]&#39;</span><span class="o">%</span><span class="k">round</span>(F2,2))
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">A</span> <span class="o">=</span> <span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mi">4</span><span class="p">)</span><span class="o">*</span><span class="n">phi</span><span class="o">**</span><span class="mi">2</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;A = </span><span class="si">%s</span><span class="s1"> [m^2] (área)&#39;</span><span class="o">%</span><span class="k">round</span>(A,5))
 </pre></div>
 
     </div>
@@ -13490,7 +13649,7 @@ $$ F_2 = P_e A_2 $$</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>F2 = 5734.76 [N]
+<pre>A = 0.00317 [m^2] (área)
 </pre>
 </div>
 </div>
@@ -13502,30 +13661,14 @@ $$ F_2 = P_e A_2 $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Cálculo de $s_2$
-$$ V_1 = V_2 $$</p>
+<h3 id="C&#225;lculo-de-velocidad">C&#225;lculo de velocidad<a class="anchor-link" href="#C&#225;lculo-de-velocidad">&#182;</a></h3>$$ Q = A \cdot v \qquad \Rightarrow \qquad v = \frac{Q}{A} $$<p>$\begin{array}{l}
+Q = \mbox{caudal} \\
+v = \mbox{velocidad} \\     
+A = \mbox{área o sección de la cañería}
+\end{array}
+$
+$$ v = \mathrm{ \frac{(5 \times 10^{-3} \, m^3/s)}{(3.17 \times 10^{-3} \, m^2)} \cong 1,579 \, m/s } $$</p>
 
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ s_1 A_1 = s_2 A_2 $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ s_2 = s_1 \frac{A_1}{A_2} $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ s_2 = s_1 \frac{\phi_1^2}{\phi_2^2} $$
 </div>
 </div>
 </div>
@@ -13534,24 +13677,8 @@ $$ s_2 = s_1 \frac{\phi_1^2}{\phi_2^2} $$
 <div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Dato:</span>
-<span class="n">s1</span> <span class="o">=</span> <span class="mf">30e-3</span> <span class="c1"># m</span>
-
-<span class="c1"># Cálculo de s2</span>
-<span class="n">s2</span> <span class="o">=</span> <span class="n">s1</span><span class="o">*</span><span class="p">(</span><span class="n">d1</span><span class="o">/</span><span class="n">d2</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;s2 = </span><span class="si">%s</span><span class="s1"> [mm]&#39;</span><span class="o">%</span><span class="k">round</span>(s2*1000,2))
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">v</span> <span class="o">=</span> <span class="n">Q</span><span class="o">/</span><span class="n">A</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;v = </span><span class="si">%s</span><span class="s1"> [m/s] (velocidad)&#39;</span><span class="o">%</span><span class="k">round</span>(v,3))
 </pre></div>
 
     </div>
@@ -13568,7 +13695,7 @@ $$ s_2 = s_1 \frac{\phi_1^2}{\phi_2^2} $$
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>s2 = 2.62 [mm]
+<pre>v = 1.579 [m/s] (velocidad)
 </pre>
 </div>
 </div>
@@ -13577,24 +13704,117 @@ $$ s_2 = s_1 \frac{\phi_1^2}{\phi_2^2} $$
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="C&#225;lculo-del-n&#250;mero-de-Reynolds">C&#225;lculo del n&#250;mero de Reynolds<a class="anchor-link" href="#C&#225;lculo-del-n&#250;mero-de-Reynolds">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ Re= \frac{\phi \cdot v}{\eta} $$<p>$\begin{array}{l}
+Re = \mbox{número de Reynolds} \\
+\eta = \mbox{viscosidad cinemática del agua} \\
+v = \mbox{velocidad} \\
+\phi = \mbox{diámetro}
+\end{array}
+$
+$$ Re = \mathrm{ \frac{(63,5 \times 10^{-3} \, m) \cdot (1,579 \, m/s)}{(1,21 \times 10^{-6} \, m^2/s)} } \cong 82855,4 $$</p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">reset</span> -s -f
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">eta</span> <span class="o">=</span> <span class="mf">1.21e-6</span> <span class="c1"># [m^2/s] (viscosidad cinamática del agua)</span>
+<span class="n">Re</span> <span class="o">=</span> <span class="p">(</span><span class="n">phi</span><span class="o">*</span><span class="n">v</span><span class="p">)</span><span class="o">/</span><span class="n">eta</span> <span class="c1"># (número de Reynolds)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Re = </span><span class="si">%s</span><span class="s1"> (número de Reynolds)&#39;</span><span class="o">%</span><span class="k">round</span>(Re,1))
 </pre></div>
 
     </div>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Re = 82855.4 (número de Reynolds)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Ejercicio-3">Ejercicio 3<a class="anchor-link" href="#Ejercicio-3">&#182;</a></h2><p>Calcular los diámetros de los siguientes cilindros que efectúan el desplazamiento de una carga según el esquema. Presión de trabajo $50 \, \mathrm{kgf/cm^2}$</p>
-<p><img src="img/g1-03.svg" alt="g1-03.svg" width="40%" height="40%"></p>
+<h3 id="C&#225;lculo-Rugosidad-Relativa">C&#225;lculo Rugosidad Relativa<a class="anchor-link" href="#C&#225;lculo-Rugosidad-Relativa">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ \frac{\varepsilon}{\phi} = \mbox{Rugosidad Relativa} $$<p>$\begin{array}{l}
+\varepsilon = \mbox{rugosidad} \\
+\phi = \mbox{diámetro de la cañería} \\
+\end{array}
+$
+$$ \frac{\varepsilon}{\phi} = \mathrm{ \frac{(5 \times 10^{-5} \, m)}{(63,5 \times 10^{-3} \, m)} } = 7,874 \times 10^{-4}  $$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">RugRel</span> <span class="o">=</span> <span class="n">epsilon</span><span class="o">/</span><span class="n">phi</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;RugRel = </span><span class="si">%s</span><span class="s1"> (rugosidad relativa)&#39;</span><span class="o">%</span><span class="k">round</span>(RugRel,7))
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>RugRel = 0.0007874 (rugosidad relativa)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Con el número de Reynolds y la rugosidad relativa, entramos en el diagrama de Moody</p>
 
 </div>
 </div>
@@ -13602,8 +13822,7 @@ $$ s_2 = s_1 \frac{\phi_1^2}{\phi_2^2} $$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Soluci&#243;n">Soluci&#243;n<a class="anchor-link" href="#Soluci&#243;n">&#182;</a></h3><p>Diagrama de cuerpo libre</p>
-<p><img src="img/g1-03-2.svg" alt="g1-03-2.svg" width="25%" height="25%"></p>
+<p><img src="img/Moody_EN_TP.svg" alt="Moody_EN_TP.svg"></p>
 
 </div>
 </div>
@@ -13611,21 +13830,34 @@ $$ s_2 = s_1 \frac{\phi_1^2}{\phi_2^2} $$
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$ \mathrm{ Presi \acute o n = \frac{Fuerza}{\acute Area} } \quad \rightarrow \quad \mathrm{ \acute Area = \frac{Fuerza}{Presi \acute on} } $$
+<p>Utilizando el diagrama de Moody obtenemos un $ft = 0.022$, (factor de fricción)</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$ A_2 = \frac{\pi \phi_2^2}{4} = \mathrm{ \frac{Peso}{Presi \acute on } } $$
+<h3 id="C&#225;lculo-de-la-p&#233;rdida-primaria">C&#225;lculo de la p&#233;rdida primaria<a class="anchor-link" href="#C&#225;lculo-de-la-p&#233;rdida-primaria">&#182;</a></h3><p>Con la ecuación de Darcy obtenemos la pérdida primaria</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-$$ \phi_2 = 2 \, \sqrt{  \mathrm{ \frac{Peso}{\pi \, Presi \acute on } } } $$
+$$ h_p = f_T \frac{L_\mathrm{lineal}}{\phi} \frac{v^2}{2g} $$<p>$\begin{array}{l}
+h_p = \mbox{pérdida primaria} \\
+f_T = \mbox{factor de fricción} \\  
+L_\mathrm{lineal} = \mbox{longitud de la cañería} \\
+\phi = \mbox{diámetro de la cañería} \\
+v = \mbox{velocidad} \\
+g = \mbox{aceleración de la gravedad}
+\end{array}
+$
+$$  h_p = \mathrm{ 0,022 \cdot \frac{(8 \, m)}{(63,5 \times 10^{-3} \, m)} \cdot  \frac{(1,579 \, m/s)^2}{2 \, (9,81 \, m/s^2)} \cong 0,35 \, m } $$
+Pérdida primaria: $h_p \cong \mathrm{0,35 \, m}$</p>
+
 </div>
 </div>
 </div>
@@ -13634,40 +13866,12 @@ $$ \phi_2 = 2 \, \sqrt{  \mathrm{ \frac{Peso}{\pi \, Presi \acute on } } } $$
 <div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
-</pre></div>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">g</span> <span class="o">=</span> <span class="mf">9.81</span> <span class="c1"># [m/s^2]</span>
+<span class="n">L</span> <span class="o">=</span> <span class="mi">8</span> <span class="c1"># [m]</span>
+<span class="n">ft</span> <span class="o">=</span> <span class="mf">0.022</span>
 
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Datos:</span>
-<span class="n">g</span> <span class="o">=</span> <span class="mf">9.81</span> <span class="c1"># [m/s^2]</span>
-<span class="n">Peso</span> <span class="o">=</span> <span class="mi">4000</span><span class="o">/</span><span class="n">g</span> <span class="c1"># [N]</span>
-<span class="n">Presion</span> <span class="o">=</span> <span class="p">(</span><span class="mi">50</span><span class="o">/</span><span class="n">g</span><span class="p">)</span><span class="o">*</span><span class="mf">1e4</span> <span class="c1"># [Pa]</span>
-
-<span class="c1"># Cálculo de d2:</span>
-<span class="n">d2</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span> <span class="n">Peso</span><span class="o">/</span><span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">Presion</span><span class="p">)</span> <span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;d2 = </span><span class="si">%s</span><span class="s1"> [m]&#39;</span><span class="o">%</span><span class="k">round</span>(d2,5))
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;d2 = </span><span class="si">%s</span><span class="s1"> [cm]&#39;</span><span class="o">%</span><span class="k">round</span>(d2*100,3))
+<span class="n">hp</span> <span class="o">=</span> <span class="n">ft</span><span class="o">*</span><span class="p">(</span><span class="n">L</span><span class="o">/</span><span class="n">phi</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">v</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">g</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;hp = </span><span class="si">%s</span><span class="s1"> [m] (pérdida primaria)&#39;</span><span class="o">%</span><span class="k">round</span>(hp,2))
 </pre></div>
 
     </div>
@@ -13684,8 +13888,7 @@ $$ \phi_2 = 2 \, \sqrt{  \mathrm{ \frac{Peso}{\pi \, Presi \acute on } } } $$
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>d2 = 0.10093 [m]
-d2 = 10.093 [cm]
+<pre>hp = 0.35 [m] (pérdida primaria)
 </pre>
 </div>
 </div>
@@ -13694,35 +13897,201 @@ d2 = 10.093 [cm]
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="C&#225;lculo-de-las-p&#233;rdidas-secundarias-(m&#233;todo-del-factor-k)">C&#225;lculo de las p&#233;rdidas secundarias (m&#233;todo del factor k)<a class="anchor-link" href="#C&#225;lculo-de-las-p&#233;rdidas-secundarias-(m&#233;todo-del-factor-k)">&#182;</a></h3><table cellspacing="0" border="0">
+    <colgroup width="207"></colgroup>
+    <colgroup span="4" width="85"></colgroup>
+    <tr>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="left" bgcolor="#FFFBCC"><b>Accesorio</b></td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center" bgcolor="#FFFBCC"><b>k</b></td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" bgcolor="#FFFBCC"><b>Valor</b></td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" bgcolor="#FFFBCC"><b>Cantidad</b></td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="left" bgcolor="#FFFBCC"><b>Total</b></td>
+    </tr>
+    <tr>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="left">Codo estándar 90°</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center">30*ft</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="right" sdval="0,66" sdnum="11274;0;0,000">0,660</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="right" sdval="2" sdnum="11274;">1</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="right" sdval="1,32" sdnum="11274;0;0,000">0,660</td>
+    </tr>
+    <tr>
+    <tr>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="left">Válvula de retención</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center">20*ft</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="right" sdval="1,1" sdnum="11274;0;0,000">0,440</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="right" sdval="1" sdnum="11274;">1</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="right" sdval="1,1" sdnum="11274;0;0,000">0,440</td>
+    </tr>
+    <tr>
+    <tr>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="17" align="left">Filtro</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center">3*ft</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="right" sdval="1,1" sdnum="11274;0;0,000">0,066</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="right" sdval="1" sdnum="11274;">1</td>
+        <td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="right" sdval="1,1" sdnum="11274;0;0,000">0,066</td>
+    </tr>
+    <tr>
+        <td height="17" align="left"><br></td>
+        <td align="left"><br></td>
+        <td align="left"><br></td>
+        <td align="left"><br></td>
+        <td align="right" sdval="20,68" sdnum="11274;0;0,000"><b>1,166</b></td>
+    </tr>
+</table>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">reset</span> -s -f
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">codo90</span> <span class="o">=</span> <span class="mi">30</span><span class="o">*</span><span class="n">ft</span> <span class="p">;</span> <span class="n">Valret</span> <span class="o">=</span> <span class="mi">20</span><span class="o">*</span><span class="n">ft</span> <span class="p">;</span> <span class="n">Filtro</span> <span class="o">=</span> <span class="mi">3</span><span class="o">*</span><span class="n">ft</span>
+<span class="n">SumKL</span> <span class="o">=</span> <span class="n">codo90</span> <span class="o">+</span> <span class="n">Valret</span> <span class="o">+</span> <span class="n">Filtro</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;SumKL = </span><span class="si">%s</span><span class="s1">&#39;</span><span class="o">%</span><span class="k">round</span>(SumKL,3))
 </pre></div>
 
     </div>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>SumKL = 1.166
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Ejercicio-4">Ejercicio 4<a class="anchor-link" href="#Ejercicio-4">&#182;</a></h2><p>Determinar la presión solicitada para que el vástago se traslade $0,5 \, \mathrm{[cm]}$. $k=150 \, \mathrm{[N/cm]}$.</p>
-<center>
-<img src="img/g1-04.png" alt="g1.04.png">
-</center>
+<h3 id="P&#233;rdida-secundaria-(factor-k)">P&#233;rdida secundaria (factor k)<a class="anchor-link" href="#P&#233;rdida-secundaria-(factor-k)">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Soluci&#243;n">Soluci&#243;n<a class="anchor-link" href="#Soluci&#243;n">&#182;</a></h2><p>Cálculo de la fuerza necesaria para comprimir el resorte:</p>
-<p><strong>Ley de Hooke:</strong>
-$$ F = k \cdot \Delta x $$</p>
+$$ h_s = \sum K_L \frac{v^2}{2g} $$<p>$\begin{array}{l}
+h_s = \mbox{pérdida secundaria} \\  
+\sum K_L = \mbox{sumatoria de los coeficientes } k \mbox{ de los accesorios} \\
+v = \mbox{velocidad} \\
+g = \mbox{aceleración de la gravedad}
+\end{array}
+$
+$$ h_s = \mathrm{ 1.166 \cdot \frac{(1.579 \, m/s)^2}{2 \, (9.81 \, m/s^2)} \cong 0,15 \, m } $$</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hs</span> <span class="o">=</span> <span class="n">SumKL</span><span class="o">*</span><span class="n">v</span><span class="o">**</span><span class="mi">2</span><span class="o">/</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="n">g</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;hs = </span><span class="si">%s</span><span class="s1"> [m]&#39;</span><span class="o">%</span><span class="k">round</span>(hs,2))
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>hs = 0.15 [m]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="C&#225;lculo-de-p&#233;rdida-de-carga-total">C&#225;lculo de p&#233;rdida de carga total<a class="anchor-link" href="#C&#225;lculo-de-p&#233;rdida-de-carga-total">&#182;</a></h3>$$ h_T =  \left( f_T \frac{L_\mathrm{lineal}}{\phi} + \sum K_L \right) \frac{v^2}{2g} $$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>$\begin{array}{l}
+h_T = \mbox{pérdida de carga total} \\
+f_T = \mbox{factor de fricción} \\
+L_\mathrm{lineal} = \mbox{longitud de la cañería} \\
+\phi = \mbox{diámetro de la cañería} \\
+\sum K_L =  \mbox{sumatoria de los coeficientes } k \mbox{ de los accesorios} \\
+v = \mbox{velocidad}  \\
+g = \mbox{aceleración de la gravedad} \\
+\end{array}
+$</p>
+$$ h_T = h_p + h_s  $$$$ h_T = \mathrm{ 0,35 \, m + 0,15 \, m \cong 0,5 \, m } $$
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hT</span> <span class="o">=</span> <span class="n">hp</span> <span class="o">+</span> <span class="n">hs</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;hT = </span><span class="si">%s</span><span class="s1"> [m]&#39;</span><span class="o">%</span><span class="k">round</span>(hT,2))
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>hT = 0.5 [m]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Importante:</strong>
+La altura se succión $(H_\mathrm{succi \acute on} = z_1 - z_2)$, en este caso es <strong>negativa</strong> $(-)$. El agua está debajo del nivel de la bomba.</p>
 
 </div>
 </div>
@@ -13732,12 +14101,9 @@ $$ F = k \cdot \Delta x $$</p>
 <div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Datos:</span>
-<span class="n">k</span> <span class="o">=</span> <span class="mi">150</span> <span class="c1"># [N/cm]</span>
-<span class="n">Dx</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="c1"># [cm]</span>
-
-<span class="c1"># Fuerza:</span>
-<span class="n">F</span> <span class="o">=</span> <span class="n">k</span><span class="o">*</span><span class="n">Dx</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Cargamos datos:</span>
+<span class="n">H_succion</span> <span class="o">=</span> <span class="o">-</span><span class="n">x</span> <span class="c1"># (x = 8 [m], dato del problema)</span>
+<span class="n">H_c</span> <span class="o">=</span> <span class="n">hT</span>
 </pre></div>
 
     </div>
@@ -13750,82 +14116,22 @@ $$ F = k \cdot \Delta x $$</p>
 <div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;F = </span><span class="si">%s</span><span class="s1"> [N]&#39;</span><span class="o">%</span><span class="k">round</span>(F,2))
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">NPSH</span> <span class="o">=</span> <span class="n">P_1</span><span class="o">/</span><span class="p">(</span><span class="n">delta</span><span class="o">*</span><span class="n">g</span><span class="p">)</span> <span class="o">-</span> <span class="n">P_vapor</span><span class="o">/</span><span class="p">(</span><span class="n">delta</span><span class="o">*</span><span class="n">g</span><span class="p">)</span> <span class="o">+</span> <span class="n">H_succion</span> <span class="o">-</span> <span class="n">H_c</span> <span class="o">-</span> <span class="n">H_seg</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>F = 75.0 [N]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Cálculo de la presión:
-$$ P = \frac{F}{A} \qquad \wedge \qquad A = \pi \frac{\phi^2}{4} $$</p>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Datos:</span>
-<span class="n">diam</span> <span class="o">=</span> <span class="mf">2.54</span> <span class="c1"># [cm]</span>
-<span class="n">g</span> <span class="o">=</span> <span class="mf">9.81</span> <span class="c1"># [m/s^2]</span>
-
-<span class="c1"># Cálculo del área:</span>
-<span class="n">A</span> <span class="o">=</span> <span class="p">(</span><span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">diam</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="mi">4</span>
-
-<span class="c1"># Cálculo de la presión:</span>
-<span class="n">P</span> <span class="o">=</span> <span class="n">F</span><span class="o">/</span><span class="n">A</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;P = </span><span class="si">%s</span><span class="s1"> [N/cm^2]&#39;</span><span class="o">%</span><span class="k">round</span>(P,3))
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;P = </span><span class="si">%s</span><span class="s1"> [kgf/cm^2]&#39;</span><span class="o">%</span><span class="k">round</span>(P/g,3))
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;ANPA: Altura neta positiva de aspiración&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;NPSH: Carga de aspiración neta positiva (por sus siglas en inglés)&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;NPSH = </span><span class="si">%s</span><span class="s1"> [m]&#39;</span><span class="o">%</span><span class="k">round</span>(NPSH,2))
 </pre></div>
 
     </div>
@@ -13842,128 +14148,9 @@ $$ P = \frac{F}{A} \qquad \wedge \qquad A = \pi \frac{\phi^2}{4} $$</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>P = 14.801 [N/cm^2]
-P = 1.509 [kgf/cm^2]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">reset</span> -s -f
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Ejercicio-5">Ejercicio 5<a class="anchor-link" href="#Ejercicio-5">&#182;</a></h2><p>Determinar la presión solicitada. (Multiplicador de presión).</p>
-<table style="width:100%">
-  <tr>
-    <th><img src="img/g1-05.png" alt="g1-05.png"></th>
-    <th><img src="img/g1-05.svg" alt="g1-05.svg" width="100%" height="100%"></th>
-  </tr>
-</table>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Soluci&#243;n">Soluci&#243;n<a class="anchor-link" href="#Soluci&#243;n">&#182;</a></h3><p>En un fluido se transmiten persiones.<br>
-En los sólidos se transmiten fuerzas.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ F_1 = P_1 A_1 \qquad \wedge \qquad A_1 = \pi \frac{d_1^2}{4} $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Datos:</span>
-<span class="n">P1</span> <span class="o">=</span> <span class="mf">10e5</span> <span class="c1"># [Pa]</span>
-<span class="n">d1</span> <span class="o">=</span> <span class="mi">4</span><span class="o">*</span><span class="mf">25.4e-3</span> <span class="c1"># [m]</span>
-<span class="n">d2</span> <span class="o">=</span> <span class="mi">1</span><span class="o">*</span><span class="mf">25.4e-3</span> <span class="c1"># [m]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Cálculo de área 1</span>
-<span class="n">A1</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="p">(</span><span class="n">d1</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="mi">4</span>
-<span class="c1"># Cálculo de F1</span>
-<span class="n">F1</span> <span class="o">=</span> <span class="n">P1</span><span class="o">*</span><span class="n">A1</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;A1 = </span><span class="si">%s</span><span class="s1"> [m^2]&#39;</span><span class="o">%</span><span class="k">round</span>(A1,7))
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;F1 = </span><span class="si">%s</span><span class="s1"> [N]&#39;</span><span class="o">%</span><span class="k">round</span>(F1,2))
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>A1 = 0.0081073 [m^2]
-F1 = 8107.32 [N]
+<pre>ANPA: Altura neta positiva de aspiración
+NPSH: Carga de aspiración neta positiva (por sus siglas en inglés)
+NPSH = 0.05 [m]
 </pre>
 </div>
 </div>
@@ -13975,468 +14162,11 @@ F1 = 8107.32 [N]
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>La fuerza se transmite por la barra
-$$ F_1 = F_2 $$</p>
+<p><strong>Resultado obtenido:</strong><br>
+ANPA o NPSH requerido: 0,05 [m]</p>
 
 </div>
 </div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ P_2 = \frac{F_2}{A_2} \qquad \wedge \qquad A_2 = \frac{d_2^2}{4} $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">F2</span> <span class="o">=</span> <span class="n">F1</span>
-<span class="c1"># Cálculo de área 2</span>
-<span class="n">A2</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="p">(</span><span class="n">d2</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="mi">4</span>
-<span class="c1"># Cálculo de P2</span>
-<span class="n">P2</span> <span class="o">=</span> <span class="n">F2</span><span class="o">/</span><span class="n">A2</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;A2 = </span><span class="si">%s</span><span class="s1"> [m^2]&#39;</span><span class="o">%</span><span class="k">round</span>(A2,7))
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;P2 = </span><span class="si">%s</span><span class="s1"> [Pa]&#39;</span><span class="o">%</span><span class="k">round</span>(P2,2))
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;P2 = </span><span class="si">%s</span><span class="s1"> [Bar]&#39;</span><span class="o">%</span><span class="k">round</span>(P2/1e5,2))
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>A2 = 0.0005067 [m^2]
-P2 = 16000000.0 [Pa]
-P2 = 160.0 [Bar]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">reset</span> -s -f
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Ejercicio-6">Ejercicio 6<a class="anchor-link" href="#Ejercicio-6">&#182;</a></h2><p>Se quiere saber la presión máxima que se soporta en el tanque de combustible de la figura [Pa]. Graficar el diagrama de presiones absolutas.</p>
-<p><img src="img/g1-06.svg" alt="g1-06.svg" width="50%" height="50%">
-$\begin{array}{lcr}
-\gamma_{gas,oil} &amp; = &amp; 870 \, \mathrm{[\vec{kg}/m^3]} \\
-\gamma_{agua} &amp; = &amp; 1000 \, \mathrm{[\vec{kg}/m^3]}
-\end{array}$</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Soluci&#243;n">Soluci&#243;n<a class="anchor-link" href="#Soluci&#243;n">&#182;</a></h3>$$ P = \gamma \cdot h $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Presiones:
-$$\begin{array}{lcl}
-P_{agua} &amp; = &amp; \gamma_{agua} \cdot h_{agua} \\
-P_{gas,oil} &amp; = &amp; \gamma_{gas,oil} \cdot h_{gas,oil} \\
-P_{aire} &amp; = &amp; P_{atm}
-\end{array}$$</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Presión máxima:
-$$ P_{m \acute ax} = P_{agua} + P_{gas,oil} + P_{aire} $$</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">g</span> <span class="o">=</span> <span class="mf">9.81</span> <span class="c1"># m/s^2</span>
-<span class="n">gamma_gasoil</span> <span class="o">=</span> <span class="mi">870</span> <span class="c1"># [kg/m^3]</span>
-<span class="n">gamma_agua</span> <span class="o">=</span> <span class="mi">1000</span> <span class="c1"># [kg/m^3]</span>
-<span class="n">P_atm</span> <span class="o">=</span> <span class="mi">10130</span> <span class="c1"># [kg/m^2]</span>
-<span class="n">h_agua</span> <span class="o">=</span> <span class="mf">0.3</span> <span class="c1"># [m]</span>
-<span class="n">h_gasoil</span> <span class="o">=</span> <span class="mi">4</span> <span class="o">-</span> <span class="p">(</span><span class="mf">0.3</span> <span class="o">+</span> <span class="mf">0.5</span><span class="p">)</span> <span class="c1"># [m]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Cálculo de presiones</span>
-<span class="n">P_agua</span> <span class="o">=</span> <span class="n">gamma_agua</span><span class="o">*</span><span class="n">h_agua</span>
-<span class="n">P_gasoil</span> <span class="o">=</span> <span class="n">gamma_gasoil</span><span class="o">*</span><span class="n">h_gasoil</span>
-<span class="n">P_aire</span> <span class="o">=</span> <span class="n">P_atm</span>
-<span class="c1"># Cálculo de la presión máxima</span>
-<span class="n">P_max</span> <span class="o">=</span> <span class="n">P_aire</span> <span class="o">+</span> <span class="n">P_gasoil</span> <span class="o">+</span> <span class="n">P_agua</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;P_max = </span><span class="si">%s</span><span class="s1"> [kg/m^2]&#39;</span><span class="o">%</span><span class="k">round</span>(P_max,2))
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;P_max = </span><span class="si">%s</span><span class="s1"> [kPa]&#39;</span><span class="o">%</span><span class="k">round</span>(P_max*g/1e3,3))
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;P_max = </span><span class="si">%s</span><span class="s1"> [bar]&#39;</span><span class="o">%</span><span class="k">round</span>(P_max*g/1e5,3))
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>P_max = 13214.0 [kg/m^2]
-P_max = 129.629 [kPa]
-P_max = 1.296 [bar]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">reset</span> -s -f
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Ejercicio-7">Ejercicio 7<a class="anchor-link" href="#Ejercicio-7">&#182;</a></h2><p>Determinar la altura del bloque de hielo que se encuentra por encima de la superficie.</p>
-<p><img src="img/g1-07.png" alt="g1-07.png"></p>
-<p>$\begin{array}{l}
-\gamma_{Hielo} = 960 \, \mathrm{[\vec{kg}/m^3]} \\
-\gamma_{agua} = 1000 \, \mathrm{[\vec{kg}/m^3]}
-\end{array}$</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Soluci&#243;n">Soluci&#243;n<a class="anchor-link" href="#Soluci&#243;n">&#182;</a></h3>$$ P = E $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Importa bibliotaca sympy</span>
-<span class="kn">import</span> <span class="nn">sympy</span> <span class="k">as</span> <span class="nn">sp</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Datos:</span>
-<span class="n">gamma_hielo</span> <span class="o">=</span> <span class="mi">960</span> <span class="c1"># [kgf/m^3]</span>
-<span class="n">gamma_agua</span> <span class="o">=</span> <span class="mi">1000</span> <span class="c1"># [kgf/m^3]</span>
-<span class="n">ancho</span> <span class="o">=</span> <span class="mi">25</span> <span class="c1"># [m]</span>
-<span class="n">largo</span> <span class="o">=</span> <span class="mi">20</span> <span class="c1"># [m]</span>
-<span class="n">alto</span> <span class="o">=</span> <span class="mi">10</span> <span class="c1"># [m]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ \gamma_{hielo} \mathrm{(ancho \times largo \times alto)} = \gamma_{agua} \mathrm{(ancho \times largo \times (alto} - x)) $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Declara variable x</span>
-<span class="n">x</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;x&#39;</span><span class="p">)</span>
-<span class="c1"># Ecuación</span>
-<span class="n">eq</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">Eq</span><span class="p">(</span> <span class="n">gamma_hielo</span><span class="o">*</span><span class="p">(</span><span class="n">ancho</span><span class="o">*</span><span class="n">largo</span><span class="o">*</span><span class="n">alto</span><span class="p">)</span> <span class="p">,</span> <span class="n">gamma_agua</span><span class="o">*</span><span class="p">(</span><span class="n">ancho</span><span class="o">*</span><span class="n">largo</span><span class="o">*</span><span class="p">(</span><span class="n">alto</span> <span class="o">-</span> <span class="n">x</span><span class="p">))</span> <span class="p">)</span>
-<span class="c1"># Resuelve la ecuación en x</span>
-<span class="n">Sol</span> <span class="o">=</span> <span class="n">sp</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">eq</span><span class="p">,</span><span class="n">x</span><span class="p">)</span>
-<span class="n">x</span> <span class="o">=</span> <span class="n">Sol</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Imprime resultado</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;x = </span><span class="si">%s</span><span class="s1"> [m]&#39;</span><span class="o">%</span><span class="k">round</span>(x,3))
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>x = 0.4 [m]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">reset</span> -s -f
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Ejercicio-8">Ejercicio 8<a class="anchor-link" href="#Ejercicio-8">&#182;</a></h2><p>Hallar la fuerza resultante ejercida sobre la presa, por la presión (manométrica) del agua.</p>
-<p><img src="img/g1-08.png" alt="g1-08.png"></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Soluci&#243;n">Soluci&#243;n<a class="anchor-link" href="#Soluci&#243;n">&#182;</a></h3>$$ \gamma = \delta \cdot g $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ P = \frac{F}{A} \qquad \Rightarrow \qquad F = P \cdot A $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="img/g1-08-2.png" alt="g1-08-2.png"></p>
-<p>$\begin{array}{l}
-dA = dy \, W \\
-dF = P \, dA
-\end{array}$</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ P = \gamma_{agua} \cdot h $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ P_{fondo} = \gamma_{agua} \cdot D $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ dF = W \int \gamma_{agua} \cdot h \; dy $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-$$ F_T = \gamma_{agua} W \int_0^D y \; dy $$
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Datos:</span>
-<span class="n">gamma_agua</span> <span class="o">=</span> <span class="mi">1000</span> <span class="c1"># [kgf/m^3]</span>
-<span class="n">W</span> <span class="o">=</span> <span class="mi">7</span> <span class="c1"># [m]</span>
-<span class="n">D</span> <span class="o">=</span> <span class="mi">3</span> <span class="c1"># [m]</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">F_T</span> <span class="o">=</span> <span class="n">gamma_agua</span><span class="o">*</span><span class="n">W</span><span class="o">*</span><span class="p">(</span><span class="n">D</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[43]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;F_T = </span><span class="si">%s</span><span class="s1"> [kgf/m^3]&#39;</span><span class="o">%</span><span class="k">round</span>(F_T,3))
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>F_T = 31500.0 [kgf/m^3]
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">reset</span> -s -f
-</pre></div>
-
-    </div>
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
